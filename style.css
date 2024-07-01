@@ -145,3 +145,7 @@ h1{
     color: black;
     font-size: 14px;
 }
+
+.main-nav li a:hover{
+    text-decoration: underline;
+}
