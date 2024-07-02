@@ -47,18 +47,23 @@ header {
     font-weight: 400;
 }
 
-.login-button button {
+.pesquisa-button button {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
-    background-color:rgb(255, 62, 181) ;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    margin-top: 7px;
+    border-radius: 20px;
 }
 
-.login-button button a {
+.pesquisa-button button a {
     text-decoration: none;
-    color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
+    margin-right: 20px;
+    opacity: 70%;
 }
 
 .mobile-menu-icon {
@@ -124,28 +129,60 @@ h1{
 
 /*main*/
 
-.main-nav{
+.nav-main{
     display: flex;
-    justify-content: right;
     background-color: white;
-    height: 40px;
-    align-items: center;
-    
+    justify-content: space-between;
+    padding: 0px 60px;
 }
 
-.main-nav li{
+ /* main links */
+.main-nav-link{
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    align-items: center;
+}
+
+.main-nav-link li{
     list-style: none;
     display: flex;
     float: left;
-    margin: 5px;
+    margin: 8px 15px;
 }
 
-.main-nav li a{
+.main-nav-link li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
 
-.main-nav li a:hover{
+.main-nav-link li a:hover{
     text-decoration: underline;
 }
+
+/* main logos*/
+
+.main-nav-logos .logo-nav-main {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    justify-content: left;
+}
+
+.logo-nav-main ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.logo-nav-main li{
+    padding-left: 15px;
+}
+
+.logo-nav-main img{
+    width: 4vw;
+    height: 5vh;
+    display: block;
+}
+
