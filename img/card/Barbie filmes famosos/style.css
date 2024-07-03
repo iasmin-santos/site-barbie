@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+section.filme {
+    background-color: #fff;
+    border: 2px solid #ff99cc;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+section.filme h2 {
+    color: #ff66b2;
+}
+
+section.filme p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #ff99cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    width: 300px;
+    height: 500px;
+}

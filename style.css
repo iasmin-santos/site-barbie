@@ -21,10 +21,6 @@ header {
     align-items: center;
 }
 
-.logo h1 {
-    color: #fff;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
@@ -63,7 +59,7 @@ header {
     font-weight: 500;
     font-size: 1.1rem;
     margin-right: 20px;
-    opacity: 70%;
+    color: grey;
 }
 
 .mobile-menu-icon {
@@ -117,12 +113,6 @@ header {
 .header{
     background:rgb(255, 62, 181) ;
     padding-inline: 16px;
-}
-
-h1{
-    color: rgb(193, 84, 141) ;
-    font-size: 35px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*barra de pesquisa*/
@@ -186,3 +176,77 @@ h1{
     display: block;
 }
 
+/* section 1 */
+h1{
+    color: rgb(255, 62, 181);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.destaque{
+    margin: 3% 18px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+}
+
+/* cards */
+
+.card{
+    display: inline-block;
+    background-color: #fff;
+    width: 280px;
+    height: 320px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.card h4 {
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.container span{
+    text-align: center;
+    color: #a19f9f;
+}
+
+.card button{
+    background-color: white;
+    height: 30px;
+    border: 1px solid rgb(255, 62, 181);
+    padding: 4px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.container button:hover{
+    background-color: rgb(255, 62, 181);
+    transition: 0.3s;
+    color: white;
+}
+
+.container button a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+.container button a:hover{
+    color: white;
+}
+
+.card img{
+    width: 200px;
+    height: 210px;
+    margin-left:30px;
+    margin-top: 10px;
+}
