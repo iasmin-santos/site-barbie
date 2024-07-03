@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    padding-top: 80px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.carro {
+    width: 300px;
+    height: 200px;
+    background-color: #f00;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dino{
+    width: 260px;
+    height: 200px;
+}
+
+.car{
+    width: 280px;
+    height: 200px;
+}
+
+.carrinho{
+    width: 260px;
+    height: 190px;
+}
+
+.carro:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #000520;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    clear: both;
+    margin-top: 20px;
+}
+
+
+/*main*/
+
+.nav-main{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+ /* main links */
+.main-nav-link{
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    align-items: center;
+}
+
+.main-nav-link li{
+    list-style: none;
+    display: flex;
+    float: left;
+    margin: 8px 15px;
+}
+
+.main-nav-link li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.main-nav-link li a:hover{
+    text-decoration: underline;
+}
+
+/* main logos*/
+
+.main-nav-logos .logo-nav-main {
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    justify-content: left;
+}
+
+.logo-nav-main ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.logo-nav-main li{
+    padding-left: 15px;
+}
+
+.logo-nav-main img{
+    width: 4vw;
+    height: 5vh;
+    display: block;
+}
+
+/* fim main*/
+
+/* header */
+header {
+    background-color: #3753cf;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd900;
+}
+
+.capa{
+    width: 100%;
+}
+
+/* butao lupa */
+
+.pesquisa-button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.pesquisa-button a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    opacity: 70%;
+}
